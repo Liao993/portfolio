@@ -15,7 +15,7 @@ const Skills = () => {
         {/*Skills Containers */}
         <div className="w-full grid grid-cols-2 gap-8 px-4 pb-8">
           <div className="sm:text-right text-4xl font-bold">
-            <p className="  border-orange-500 border-b-4 inline">Experience</p>
+            <p className="  border-orange-500 border-b-4 inline">Skills</p>
           </div>
           <div></div>
           <p className=" sm:text-right text-lg sm:text-xl">
@@ -38,7 +38,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-125 duration-500">
             <img src={ReactImg} alt="React Icon" className="w-30 mx-auto" />
-            <p className="my-4">ReactImg</p>
+            <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-125 duration-500">
             <img src={Node} alt="Node Icon" className="w-30 mx-auto" />
