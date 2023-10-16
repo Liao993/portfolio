@@ -4,11 +4,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
-  const handleClick = () => {
-    setNav(!nav);
-  };
+  const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex items-center px-4 bg-orange-500">
+    <div className="fixed w-full h-[80px] flex items-center justify-between px-4 bg-orange-500">
       <div>
         <img src="" alt="" />
       </div>
@@ -18,14 +16,18 @@ const NavBar = () => {
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
-          <li>Works</li>
+          <li>Projects</li>
           <li>Contact</li>
         </ui>
       </div>
 
       {/*Hamburger */}
-      <div onClick={handleClick} className="md:hidden">
-        {nav === false ? <FaBars className="text-2xl" /> : <FaTimes />}
+      <div onClick={handleClick} className="md:hidden z-10">
+        {nav === false ? (
+          <FaBars size={30} />
+        ) : (
+          <FaTimes size={30} color="white" />
+        )}
       </div>
 
       {/*Mobile Menu */}
