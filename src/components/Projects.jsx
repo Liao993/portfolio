@@ -2,12 +2,15 @@ import { projects } from "../data/data";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-slate-900">
+    <div
+      name="projects"
+      className="w-full md:h-screen text-gray-300 bg-slate-900"
+    >
       <div className="mx-auto flex flex-col justify-center items-center w-full h-full">
         {/*Skills Containers */}
 
         <div className=" max-w-[960px] w-full  px-4 pb-8 sm:text-center text-4xl font-bold">
-          <p className=" border-orange-500 border-b-4 inline">Works</p>
+          <p className=" border-orange-500 border-b-4 inline">Projects</p>
           <p className="pt-6 text-xl sm:text-2xl">Check out my recent work</p>
         </div>
 

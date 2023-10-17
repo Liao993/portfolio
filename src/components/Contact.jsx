@@ -14,6 +14,25 @@ const Contact = () => {
             shoot me an email @ lhungen@gmail.com
           </p>
         </div>
+        <input
+          placeholder="name"
+          type="text"
+          className="p-2 mb-2 bg-[#ccd6f6]"
+        />
+        <input
+          placeholder="email"
+          type="email"
+          className="p-2 mb-2 bg-[#ccd6f6]"
+        />
+        <textarea
+          placeholder="message"
+          type="text"
+          rows={10}
+          className="p-2 mb-2 bg-[#ccd6f6]"
+        />
+        <button className="text-white border-2 hover:bg-orange-600 hover:border-orange-600 px-4 py-3 flex items-center  my-8 mx-auto">
+          Let us Collaborate
+        </button>
       </form>
     </div>
   );
