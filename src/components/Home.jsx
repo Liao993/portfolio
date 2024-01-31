@@ -12,7 +12,7 @@ const Home = () => {
           Henry Liao
         </h1>
         <p className="max-w-[500px] pt-2 text-2xl font-bold text-orange-300">
-          I am a full-stack developer, specializing in building responsive
+          I am a full-stack web developer, specializing in building responsive
           full-stack web application
         </p>
         <div>

@@ -35,11 +35,6 @@ const NavBar = () => {
               Projects
             </Link>
           </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
         </ui>
       </div>
 
@@ -86,12 +81,6 @@ const NavBar = () => {
             duration={500}
           >
             Projects
-          </Link>
-        </li>
-        <li className="py-6 text-4xl text-white">
-          {" "}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
       </ui>

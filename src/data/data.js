@@ -24,14 +24,16 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    tags: ["Full-Stack", "MERN", "Data"],
     name: "React JS Application",
     image: WorkIm,
     github: "",
-    live: "",
+    live: "https://github.com/Liao993/recipe_React",
   },
   {
     id: 2,
     name: "Json Server Application",
+    tags: ["Frontend", "TypeScript"],
     image: RealEst,
     github: "",
     live: "",
@@ -39,6 +41,7 @@ export const projects = [
   {
     id: 3,
     name: "React JS Application",
+    tags: ["Full-Stack", "MERN", "Data"],
     image: WorkIm,
     github: "",
     live: "",
@@ -46,6 +49,23 @@ export const projects = [
   {
     id: 4,
     name: "React JS Application",
+    tags: ["Full-Stack", "MERN", "Data"],
+    image: RealEst,
+    github: "",
+    live: "",
+  },
+  {
+    id: 5,
+    name: "React JS Application",
+    tags: ["Full-Stack", "MERN", "Data"],
+    image: WorkIm,
+    github: "",
+    live: "",
+  },
+  {
+    id: 6,
+    name: "React JS Application",
+    tags: ["Full-Stack", "MERN", "Data"],
     image: RealEst,
     github: "",
     live: "",
