@@ -21,7 +21,7 @@ const Social = () => {
             href="https://github.com/Liao993?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-between items-center w-full text-xl text-gray-100"
+            className="flex justify-between items-center w-full text-xl text-gray-200"
           >
             Github <FaGithub size={30} />
           </a>
