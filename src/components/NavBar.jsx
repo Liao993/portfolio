@@ -35,6 +35,11 @@ const NavBar = () => {
               Projects
             </Link>
           </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ui>
       </div>
 
