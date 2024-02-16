@@ -29,7 +29,7 @@ const Social = () => {
 
         <li className="w-[160px] h-[60px] flex justify-between items-center bg-[#D4AF37] ml-[-100px] hover:ml-[-10px] duration-300">
           <a
-            href="/"
+            href="https://drive.google.com/file/d/1_XpgimMCdfgaL---s7Fts2yaUd1_U8o_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-between items-center w-full text-xl text-gray-30"
