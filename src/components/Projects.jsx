@@ -15,16 +15,16 @@ const Work = () => {
         </div>
 
         {/* List Container */}
-        <div className="max-w-[1080px] h-full grid  md:grid-cols-2 gap-4">
+        <div className=" max-w-[1080px] w-full h-full grid  sm:grid-cols-1 lg:grid-cols-2 gap-4">
           {/*Grid Items*/}
 
           {projects.map((item) => (
             <div
               key={item.id}
-              className=" w-[500px] h-[300px] shadow-lg shadow-[#dfc278]  rounded-md flex flex-col"
+              className="mx-auto md:w-[500px] md:h-[300px]  w-[300px] h-[180px]  shadow-lg shadow-[#dfc278]  rounded-md flex flex-col"
             >
-              <div className="basis-1/5 flex justify-between items-center">
-                <div className="mt-2 ml-2 flex flex-row gap-2">
+              <div className="basis-1/5 flex justify-between items-center text-xs  md:text-sm">
+                <div className="grid grid-cols-2 md:grid-cols-4  gap-1  mb-2 ml-1">
                   {item.tags.map((tag, index) => (
                     <div
                       key={index}

@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="mx-auto flex flex-col items-center justify-center w-full h-full">
         {/*Skills Containers */}
 
-        <div className="max-w-[960px] w-full px-4 pb-8 sm:text-center text-4xl font-bold">
+        <div className="max-w-[1080px] w-full px-4 pb-8 sm:text-center text-4xl font-bold">
           <p className="  border-orange-500 border-b-4 inline">Skills</p>
 
           <p className="pt-6 text-xl sm:text-2xl">
@@ -16,7 +16,7 @@ const Skills = () => {
 
         {/*Tool Image Containers */}
 
-        <div className="max-w-[960px] w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="max-w-[1080px] w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           {skills.map((item) => (
             <div
               key={item.id}
